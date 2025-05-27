@@ -18,7 +18,9 @@
     <!-- solution: change div to header -->
     <header class="site-header"> 
       <h1>Jam Box Studios</h1>
-      <div class="main-nav">
+      <!-- problem: <div> used for navigation -->
+      <!-- solution: use <nav> with aria-label for better accessibility -->
+      <nav class="main-nav" aria-label="Main Navigation">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
