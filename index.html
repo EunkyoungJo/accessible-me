@@ -74,19 +74,30 @@
           B3T 0L0
         </address>>         
       </section>
-      <div class="contact-section">
-        <h1>Contact Us</h1>
+
+      <!-- problem: form elements missing associated labels -->
+      <!-- solution: use <label for> and corresponding input IDs -->
+      <section class="contact-section" aria-labelledby="contact">
+        <h2 id="contact">Contact Us</h2>
         <form action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Subject">
-          <b>Your Message</b>
-          <textarea></textarea>
+
+          <label for="name">Full Name</label>
+          <input id="name" type="text" placeholder="Full Name">
+
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email">
+
+          <label for="Subject">Subject</label>
+          <input id="Subject" type="text" placeholder="Subject">
+
+          <label for="message">Your Message</label>
+          <textarea id="message"></textarea>
+
           <button type="submit">Send</button>
         </form>
-      </div>
+      </section>
     </main>
+    
     <div class="site-footer">
       &copy; 2021 Jam Box Studios
     </div>
