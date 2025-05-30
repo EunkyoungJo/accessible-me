@@ -1,6 +1,8 @@
+/* Base styling with improved contrast and pastel theme */
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #f0f4f8;
+  color: #333333;
   margin: 0;
   padding: 0;
 }
