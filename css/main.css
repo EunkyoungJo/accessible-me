@@ -112,3 +112,23 @@ form button:focus {
   font-size: 0.9rem;
   color: #777
 }
+
+/* skip link for accessiblility */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+  background-color: #fce38a;
+  color: #000;
+  font-weight: bold;
+}
