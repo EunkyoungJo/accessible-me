@@ -18,11 +18,14 @@ a {
   color: #2c6faa;
 }
 
-
+/* container layout and card style box */
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 img {
