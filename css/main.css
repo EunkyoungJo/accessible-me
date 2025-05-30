@@ -18,7 +18,7 @@ a {
   color: #2c6faa;
 }
 
-/* container layout and card style box */
+/* change color & add style for container */
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -28,16 +28,21 @@ a {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* adding border-radius for image */
 img {
   width: 100%;
+  border-radius: 8px;
 }
 
+/* styling for navigation */
 .main-nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  background-color: #cce3dc;
+  border-radius: 5px;
 }
 
 .main-nav ul li {
@@ -45,11 +50,20 @@ img {
   text-align: center;
 }
 
+/* change color & styling for navigation */
 .main-nav ul li a {
   display: block;
-  color: inherit;
+  color: #333;
   text-decoration: none;
   font-size: 1.25rem;
+  padding: 1rem;
+  transition: background-color 0.3s;
+}
+
+/* navigation hover and focus for interactivity */
+.main-nav ul li a:hover,
+.main-nav ul li a:focus {
+  background-color: #f9c6c9;
 }
 
 form input,
