@@ -86,11 +86,23 @@ form textarea {
   resize: none;
 }
 
+/* styling for button */
 form button {
-  background: none;
-  border: 2px solid black;
-  padding: 1rem;
+  background-color: #a2d5f2;
+  border: none;
+  padding: 1rem 2rem;
   text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+/* add hover & focus for button */
+form button:hover,
+form button:focus {
+  background-color: #07689f;
+  color:white
 }
 
 .site-footer {
